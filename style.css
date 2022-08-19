@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    height: 100vh;
+    padding: 40px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.quote .quote-text {
+    font-size: 1.875rem;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.quote .quote-author {
+    font-weight: 900;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 12px;
+}
+
+.categories p {
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.categories button {
+    border-radius: 16px;
+    padding: 4px 16px;
+    border: 1px solid black;
+    background-color: #fff;
+    font-size: 1.125rem;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.categories button:hover {
+    opacity: .8;
+}
+
+.categories button.active {
+    border: none;
+    background-color: rgba(15, 255, 20, .35);
+    box-shadow: 2px 2px 4px rgba(0,0,0,.25);
+}
