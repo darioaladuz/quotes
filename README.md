@@ -1,15 +1,19 @@
-Comment Slider
+# Comment Slider
 
-A comment slider using JavaScript and some CSS.
-How to use locally
+A quote selector using HTML, CSS and Vanilla JavaScript. I didn't use any framework due to the project being really small and simple.
 
-Clone the repository on your local machine Open the HTML file directly on your browser or run the project using Live Server.
-Screenshot
+## How to use locally
 
-Comment slider example
-About the author
+Clone the repository on your local machine. Open the HTML file directly on your browser or run the project using Live Server.
+
+## Screenshot
+
+![Quotes Screenshot Example](./assets/quotes-example.png)
+
+## About the author
 
 I'm Dario Aladuz, a Full Stack Web Developer. I've been programming for more than 3 years now and currently working on personal projects, and looking for a job position.
-License
+
+### License
 
 MIT License
